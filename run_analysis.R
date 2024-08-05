@@ -13,7 +13,7 @@ f <- "assignment.zip"
 if (!file.exists(path))
   {dir.create(path)}
 download.file(url, file.path(path, f))
-getwd()
+
 ##Unzip the file with WinRar on Windows
 exe <- file.path("C:", "Program Files (x86)", "WinRAR", "WinRAR.exe")
 parameters <- "x"
@@ -31,7 +31,6 @@ features <- fread(path_feature, col.names = c("index", "featureNames"))
 featuresW <- grep("(mean|std)\\(\\)", features[, featureNames])
 obs <- features[featuresW, featureNames]
 obs <- gsub('[()]', '', obs)
-
 
 # Load train datasets
 path_trainX <- file.path(path, "UCI HAR Dataset/train/X_train.txt")
