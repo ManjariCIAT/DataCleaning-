@@ -1,7 +1,7 @@
 ---
 title: "README"
-author: "Amit"
-date: "January 31, 2016"
+author: "Manjari"
+date: "August 06, 2024"
 output: html_document
 ---
 ## run_analysis.R
