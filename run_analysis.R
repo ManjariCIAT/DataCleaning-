@@ -39,6 +39,6 @@ tidy_data_summary <- tidy_data %>%
   summarise_all(mean)
 
 # Save the tidy dataset to a file
-write.table(tidy_data_summary, "tidy_data_summary.txt", row.names = FALSE)
+write.table(tidy_data_summary, "tidy_data_assignment.txt", row.names = FALSE)
 
 # End of the script
