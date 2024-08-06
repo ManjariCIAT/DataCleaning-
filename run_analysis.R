@@ -1,6 +1,6 @@
 # Download and unzip the dataset
 url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-download.file(url, destfile = "dataset.zip")
+download.file(url, destfile = "C:/Users/MSingh/Documents/dataset.zip")
 unzip("dataset.zip")
 
 # Load the datasets
